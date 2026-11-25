@@ -1,1 +1,165 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Radar de Ofertas</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #101827;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 65px 20px;
+            background: #17243a;
+        }
+
+        header h1 {
+            font-size: 42px;
+            color: #35d07f;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            max-width: 650px;
+            margin: auto;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 45px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #35d07f;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1d2b40;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #35d07f;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .about {
+            margin-top: 45px;
+            background: #1d2b40;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Radar de Ofertas</h1>
+        <p>
+            Uma ferramenta em desenvolvimento para monitorar preços,
+            identificar promoções e acompanhar oportunidades de compra
+            em diferentes marketplaces.
+        </p>
+    </header>
+
+    <main>
+
+        <h2>Conheça o projeto</h2>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Monitoramento</h3>
+                <p>
+                    Acompanhar produtos e preços em marketplaces.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Análise de preços</h3>
+                <p>
+                    Identificar possíveis descontos e oportunidades.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Histórico</h3>
+                <p>
+                    Armazenar informações para acompanhar a evolução
+                    dos preços.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Ofertas</h3>
+                <p>
+                    Organizar oportunidades encontradas para facilitar
+                    a análise.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="about">
+            <h2>Sobre o Radar de Ofertas</h2>
+            <p>
+                O Radar de Ofertas é um projeto independente em
+                desenvolvimento, criado para facilitar o monitoramento
+                e a análise de preços de produtos.
+            </p>
+            <p>
+                O objetivo é desenvolver uma ferramenta que utilize
+                fontes de dados autorizadas e recursos de automação
+                para auxiliar na identificação de promoções.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        Radar de Ofertas — Projeto em desenvolvimento.
+    </footer>
+
+</body>
+</html>
+
